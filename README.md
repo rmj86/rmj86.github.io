@@ -1,2 +1,2 @@
 # rmj86.github.io
-My personal blog.
+My personal homa page and blog.
