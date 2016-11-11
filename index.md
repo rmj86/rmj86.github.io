@@ -3,7 +3,8 @@ layout: default
 title: RMJ Home
 ---
 
-# Johannes Rehnström's Home Page
+Johannes Rehnström's Home Page
+==============================
 
 Hi there. I'm Johannes, a self-taught aspiring programmer and software developer. On this site you will find my programming projects. For now the only project is [Taylor Bundles](1). Upcoming projects are an interactive visualization of the nutrient density of foods, and an interactive/animated rendition of _Euclid's Elements._
 
