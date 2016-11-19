@@ -116,7 +116,7 @@ The formal proof is not too advanced, just induction. But it's induction in two 
 That's it. With our refactored formula $$ S^T_p $$ is now $$ O(n) $$.
 
 To get some appreciation for this result, let's apply it to calculating digits of $$ \pi $$. We're using Python's `decimal` module, and Leibniz's famous series. 
-[Source code here.]()
+[Source code here.](https://github.com/rmj86/algos/tree/master/eulertransform)
 
 $$
 \pi \ =\  1 - {1 \over 3} + {1 \over 5} - {1 \over 7} + {1 \over 9} - \dots
