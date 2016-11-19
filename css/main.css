@@ -2,7 +2,7 @@ body {
     margin: 60px auto;
     width: 36em;
     max-width: 80%;
-    font-size: 24px;
+    font-size: 20px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -14,12 +14,23 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 1em;
 }
+table {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    color: #222;
+}
+th, td {
+    border-bottom: 1px solid grey;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 a {
     text-decoration: none;
-    color: #999;
+    color: #888;
 }
 a:hover {
     text-decoration: underline;
+    color: #66B;
 }
 h1 {
     font-size: 1.8em;
