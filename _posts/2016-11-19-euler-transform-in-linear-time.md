@@ -124,11 +124,11 @@ $$
 
 Getting 100 digits of $$ \pi $$ out of this series would require us to add up somewhere on the order of $$ 10^{100} $$ terms. Good luck! With Euler Transform, it gives us a little more than 100 digits per 350 terms (empirical). On my machine, getting $$ n $$ digits with the original versus the refactored formula takes so much time:
 
- # digits  |  # terms  |  Original  |  Refactored
------------|-----------|------------|--------------
-  100      |  350      |  6.8 s     |  0.11 s 
-  200      |  700      |  54 s      |  0.42 s
-  500      |  1750     |  1600 s    |  5.1 s
-  1000     |  3500     |  ????      |  40 s
+ # digits  |  Original  |  Refactored
+-----------|------------|--------------
+  100      |  7.4 s     |  0.05 s 
+  250      |  120 s     |  0.31 s
+  500      |  1400 s    |  2.0 s
+  2000     |  ????      |  120 s
   
 The empirical performance is much worse than $$ O(n^2) $$ and $$ O(n) $$. That's accounted for by the fact that as we increase precision, the cost of each arithmetic operation increases, whereas the above analysis is only concerned with the number of operations.
